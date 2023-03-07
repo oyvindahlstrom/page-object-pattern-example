@@ -16,7 +16,7 @@ export const Add: React.FC<Props> = ({onAdd, onCancel}) => {
     <Container className='mt-5'>
     <Row>
       <Col>
-        <label>Description</label>
+        <label htmlFor='description-field'>Description</label>
         <input id="description-field" type="text" value={value} onChange={(e) => setValue(e.target.value)}/>
       </Col>
     </Row>
